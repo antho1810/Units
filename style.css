@@ -1,0 +1,29 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    padding: 40px;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container-child{
+    font-size: 15px;
+}
+
+.title{
+    font-size: 4em;
+    width: 5em;
+    background-color: yellow;
+}
+
+/* Hay medidas absolutas como 40px, 4cm, 2mm */
+/* Hay medidas relaticas con rem, 1 rem = 16px*, rem se basa en el font-size de la raiz
+y en se basa en el tamaño de su padre mas cercano*/
